@@ -1,0 +1,758 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/modeltech64_10.4c/examples
+T_opt
+!s110 1472143321
+V@VRJoBeK<JPb0=IAU5IE_3
+04 3 5 work cpu struc 1
+=1-a4c4946d5fce-57bf1fd9-333-21c4
+Z1 o-quiet -auto_acc_if_foreign -work work
+n@_opt
+Z2 OL;O;10.4c;61
+T_opt1
+!s110 1472067279
+V18>cID^Ta_2O1;YU<3b^11
+04 3 5 work alu struc 1
+=1-90b11c87cf56-57bdf6cf-326-4b0
+R1
+n@_opt1
+R2
+R0
+T_opt2
+!s110 1472071739
+VQ@?mLE3UE=G?z8;2hgFO[3
+04 10 10 work datamemory behavioral 1
+=1-90b11c87cf56-57be083b-8a-161c
+R1
+n@_opt2
+R2
+R0
+Ealu
+Z3 w1472141022
+Z4 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z5 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z6 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z7 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z8 dC:/Users/crb343/Desktop/Full CPU
+Z9 8C:/Users/crb343/Desktop/Full CPU/ALU.vhd
+Z10 FC:/Users/crb343/Desktop/Full CPU/ALU.vhd
+l0
+L9
+V3JRHBHW]1Gc8kB`WI]^1L1
+!s100 efOI9EC51dNVNmCoOfWRa1
+Z11 OL;C;10.4c;61
+32
+Z12 !s110 1472143313
+!i10b 1
+Z13 !s108 1472143313.000000
+Z14 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/crb343/Desktop/Full CPU/ALU.vhd|
+Z15 !s107 C:/Users/crb343/Desktop/Full CPU/ALU.vhd|
+!i113 0
+Z16 o-work work -2002 -explicit
+Z17 tExplicit 1
+Astruc
+R4
+R5
+R6
+R7
+DEx4 work 3 alu 0 22 3JRHBHW]1Gc8kB`WI]^1L1
+l32
+L17
+V<]^f;[ch0ReeZ7^m81ZQO3
+!s100 l?hDXgY_hQJAPM:@o>CHh2
+R11
+32
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 0
+R16
+R17
+Ealu_1bit
+R3
+R6
+R7
+R8
+Z18 8C:/Users/crb343/Desktop/Full CPU/ALU_1bit.vhd
+Z19 FC:/Users/crb343/Desktop/Full CPU/ALU_1bit.vhd
+l0
+L7
+V^h6[94`X0T:hLg^LUDSo12
+!s100 ]oBkMBK7kggN7??@1WQJ22
+R11
+32
+Z20 !s110 1472143314
+!i10b 1
+Z21 !s108 1472143314.000000
+Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/crb343/Desktop/Full CPU/ALU_1bit.vhd|
+Z23 !s107 C:/Users/crb343/Desktop/Full CPU/ALU_1bit.vhd|
+!i113 0
+R16
+R17
+Abehavioral
+R6
+R7
+DEx4 work 8 alu_1bit 0 22 ^h6[94`X0T:hLg^LUDSo12
+l13
+L12
+VU@WCX45j^6^GzYJ0LMmb=2
+!s100 4_=NgTK`DHDUUUW@L?2Rc3
+R11
+32
+R20
+!i10b 1
+R21
+R22
+R23
+!i113 0
+R16
+R17
+Ealucontrol
+R3
+R6
+R7
+R8
+Z24 8C:/Users/crb343/Desktop/Full CPU/ALUControl.vhd
+Z25 FC:/Users/crb343/Desktop/Full CPU/ALUControl.vhd
+l0
+L6
+VJo2ZWWd4eN9MmzO_T37;O0
+!s100 V1X]cH^Vil2N_<;GKG^NU2
+R11
+32
+R12
+!i10b 1
+R13
+Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/crb343/Desktop/Full CPU/ALUControl.vhd|
+Z27 !s107 C:/Users/crb343/Desktop/Full CPU/ALUControl.vhd|
+!i113 0
+R16
+R17
+Abehavioral
+R6
+R7
+DEx4 work 10 alucontrol 0 22 Jo2ZWWd4eN9MmzO_T37;O0
+l14
+L13
+V`0nkbf3gRC_UW2>80Dc_g3
+!s100 PDBKa:X6ZC@R=9g=7kzDR0
+R11
+32
+R12
+!i10b 1
+R13
+R26
+R27
+!i113 0
+R16
+R17
+Eand2
+R3
+R6
+R7
+R8
+Z28 8C:/Users/crb343/Desktop/Full CPU/And2.vhd
+Z29 FC:/Users/crb343/Desktop/Full CPU/And2.vhd
+l0
+L4
+VbZ66IjzCzdbh2=U=ebPhL3
+!s100 8MN?HChe>:BIcz4koFgkY2
+R11
+32
+R12
+!i10b 1
+R13
+Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/crb343/Desktop/Full CPU/And2.vhd|
+Z31 !s107 C:/Users/crb343/Desktop/Full CPU/And2.vhd|
+!i113 0
+R16
+R17
+Abehavioral
+R6
+R7
+DEx4 work 4 and2 0 22 bZ66IjzCzdbh2=U=ebPhL3
+l9
+L8
+V5LWO52`=JoPG:dIa4DczL0
+!s100 >U:Qlifoa3PkmO;N^ChiE2
+R11
+32
+R12
+!i10b 1
+R13
+R30
+R31
+!i113 0
+R16
+R17
+Econtrol
+R3
+R6
+R7
+R8
+Z32 8C:/Users/crb343/Desktop/Full CPU/Control.vhd
+Z33 FC:/Users/crb343/Desktop/Full CPU/Control.vhd
+l0
+L6
+V7;jRQc^icz8S6><<61`e`3
+!s100 V<4bjjnFm]VW8EaI68;X=3
+R11
+32
+R12
+!i10b 1
+R13
+Z34 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/crb343/Desktop/Full CPU/Control.vhd|
+Z35 !s107 C:/Users/crb343/Desktop/Full CPU/Control.vhd|
+!i113 0
+R16
+R17
+Abehavioral
+R6
+R7
+DEx4 work 7 control 0 22 7;jRQc^icz8S6><<61`e`3
+l14
+L13
+V:=zhm>3SE?OagI0[Tj9L_2
+!s100 4c4HB4]1hPgYl]?bKP0ho3
+R11
+32
+R12
+!i10b 1
+R13
+R34
+R35
+!i113 0
+R16
+R17
+Ecpu
+Z36 w1472141633
+R6
+R7
+R8
+Z37 8C:/Users/crb343/Desktop/Full CPU/CPU.vhd
+Z38 FC:/Users/crb343/Desktop/Full CPU/CPU.vhd
+l0
+L6
+VYUfIJk8bAAB@41YYaV6Q42
+!s100 gC<6B>@eB?fFA4>B^nRFQ2
+R11
+32
+R12
+!i10b 1
+R13
+Z39 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/crb343/Desktop/Full CPU/CPU.vhd|
+Z40 !s107 C:/Users/crb343/Desktop/Full CPU/CPU.vhd|
+!i113 0
+R16
+R17
+Astruc
+R6
+R7
+DEx4 work 3 cpu 0 22 YUfIJk8bAAB@41YYaV6Q42
+l139
+L10
+V9mRIg;?LeS4gPiazNY]5Y0
+!s100 8X7@Uf1i8Ddz`_6GS?LeE3
+R11
+32
+R12
+!i10b 1
+R13
+R39
+R40
+!i113 0
+R16
+R17
+Edatamemory
+Z41 w1472143308
+R4
+R5
+R6
+R7
+R8
+Z42 8C:/Users/crb343/Desktop/Full CPU/data_memory.vhd
+Z43 FC:/Users/crb343/Desktop/Full CPU/data_memory.vhd
+l0
+L7
+VTlVi[_FnUnBPHJ0W8h5ak3
+!s100 agdDKc_@]TBFLP_oc_]m13
+R11
+32
+R12
+!i10b 1
+R13
+Z44 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/crb343/Desktop/Full CPU/data_memory.vhd|
+Z45 !s107 C:/Users/crb343/Desktop/Full CPU/data_memory.vhd|
+!i113 0
+R16
+R17
+Abehavioral
+R4
+R5
+R6
+R7
+DEx4 work 10 datamemory 0 22 TlVi[_FnUnBPHJ0W8h5ak3
+l25
+L20
+Vbz;Kh8HUi27]9MTQC33203
+!s100 O:<2UCXUV1_H^2F8ZH7_02
+R11
+32
+R12
+!i10b 1
+R13
+R44
+R45
+!i113 0
+R16
+R17
+Einstmemory
+R3
+R4
+R6
+R7
+R8
+Z46 8C:/Users/crb343/Desktop/Full CPU/InstMemory.vhd
+Z47 FC:/Users/crb343/Desktop/Full CPU/InstMemory.vhd
+l0
+L7
+VV5VHkV<z5;e`li6:JE9QN0
+!s100 L<S17gaFQ^2iamz@ZhNlB0
+R11
+32
+R12
+!i10b 1
+R13
+Z48 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/crb343/Desktop/Full CPU/InstMemory.vhd|
+Z49 !s107 C:/Users/crb343/Desktop/Full CPU/InstMemory.vhd|
+!i113 0
+R16
+R17
+Abehavioral
+R4
+R6
+R7
+DEx4 work 10 instmemory 0 22 V5VHkV<z5;e`li6:JE9QN0
+l15
+L12
+Vz1fJ2>aM>c_BMZWG@HIGS1
+!s100 KcW4a9=JoBE[QlazMFVY13
+R11
+32
+R12
+!i10b 1
+R13
+R48
+R49
+!i113 0
+R16
+R17
+Emux32
+R3
+R6
+R7
+R8
+Z50 8C:/Users/crb343/Desktop/Full CPU/mux32.vhd
+Z51 FC:/Users/crb343/Desktop/Full CPU/mux32.vhd
+l0
+L23
+VUMC[zJ_3>z0b_SJ1YGXm>1
+!s100 CIHPL?kAkUnbaYTKAgm@e1
+R11
+32
+R12
+!i10b 1
+R13
+Z52 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/crb343/Desktop/Full CPU/mux32.vhd|
+Z53 !s107 C:/Users/crb343/Desktop/Full CPU/mux32.vhd|
+!i113 0
+R16
+R17
+Abehavioral
+R6
+R7
+DEx4 work 5 mux32 0 22 UMC[zJ_3>z0b_SJ1YGXm>1
+l48
+L35
+V5QkL;E6za5f=06Bfk8<D@1
+!s100 Ad2EJjJm]WCcbELEF@G7G2
+R11
+32
+R12
+!i10b 1
+R13
+R52
+R53
+!i113 0
+R16
+R17
+Emux5
+R3
+R6
+R7
+R8
+Z54 8C:/Users/crb343/Desktop/Full CPU/mux5.vhd
+Z55 FC:/Users/crb343/Desktop/Full CPU/mux5.vhd
+l0
+L23
+VU;PDMAI0Ej5:W=9;D;<no0
+!s100 a:RYZdFzl1hTDNY8X<1U53
+R11
+32
+R12
+!i10b 1
+R13
+Z56 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/crb343/Desktop/Full CPU/mux5.vhd|
+Z57 !s107 C:/Users/crb343/Desktop/Full CPU/mux5.vhd|
+!i113 0
+R16
+R17
+Abehavioral
+R6
+R7
+DEx4 work 4 mux5 0 22 U;PDMAI0Ej5:W=9;D;<no0
+l48
+L35
+Vg6Qe0HS]Jb[2=^WQ:74^[0
+!s100 M4GV;eg7Io3;[Of;`Xd:]1
+R11
+32
+R12
+!i10b 1
+R13
+R56
+R57
+!i113 0
+R16
+R17
+Enmux
+R3
+R6
+R7
+R8
+Z58 8C:/Users/crb343/Desktop/Full CPU/nMux.vhd
+Z59 FC:/Users/crb343/Desktop/Full CPU/nMux.vhd
+l0
+L25
+Vo7RR9<[o<o1Ul>C2FkjDM3
+!s100 Szn;W9<9^>@8QO94MNL:g2
+R11
+32
+R20
+!i10b 1
+R21
+Z60 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/crb343/Desktop/Full CPU/nMux.vhd|
+Z61 !s107 C:/Users/crb343/Desktop/Full CPU/nMux.vhd|
+!i113 0
+R16
+R17
+Abehavioral
+R6
+R7
+DEx4 work 4 nmux 0 22 o7RR9<[o<o1Ul>C2FkjDM3
+l39
+L38
+VMNJz3T`X<oSgB5E>?:3l91
+!s100 4^ASdP9?UTcc@`JHOKToS3
+R11
+32
+R20
+!i10b 1
+R21
+R60
+R61
+!i113 0
+R16
+R17
+Enor32
+R3
+R6
+R7
+R8
+Z62 8C:/Users/crb343/Desktop/Full CPU/NOR32.vhd
+Z63 FC:/Users/crb343/Desktop/Full CPU/NOR32.vhd
+l0
+L7
+VXREz4Bj5D5HA>oIS8ed9?2
+!s100 dCAWcUD4YiPWD0>[cD;WE0
+R11
+32
+R12
+!i10b 1
+R13
+Z64 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/crb343/Desktop/Full CPU/NOR32.vhd|
+Z65 !s107 C:/Users/crb343/Desktop/Full CPU/NOR32.vhd|
+!i113 0
+R16
+R17
+Abehavioral
+R6
+R7
+DEx4 work 5 nor32 0 22 XREz4Bj5D5HA>oIS8ed9?2
+l12
+L11
+VfK_maBUbXgJ]fJV^^SX8U3
+!s100 Hfe;lkMnFlI>TnRUX96JJ2
+R11
+32
+R12
+!i10b 1
+R13
+R64
+R65
+!i113 0
+R16
+R17
+Epc
+R3
+R6
+R7
+R8
+Z66 8C:/Users/crb343/Desktop/Full CPU/PC.vhd
+Z67 FC:/Users/crb343/Desktop/Full CPU/PC.vhd
+l0
+L4
+V_Mkh^j99Z4QLBk<AIn8aJ1
+!s100 J@4GnKDgoN]>8V8hRTaci1
+R11
+32
+R12
+!i10b 1
+R13
+Z68 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/crb343/Desktop/Full CPU/PC.vhd|
+Z69 !s107 C:/Users/crb343/Desktop/Full CPU/PC.vhd|
+!i113 0
+R16
+R17
+Abehavioral
+R6
+R7
+DEx4 work 2 pc 0 22 _Mkh^j99Z4QLBk<AIn8aJ1
+l13
+L11
+VNjBKn8l1i1lA4UQZ:g65@0
+!s100 <STGYD5X]UCEVj@V_3JdS2
+R11
+32
+R12
+!i10b 1
+R13
+R68
+R69
+!i113 0
+R16
+R17
+Eregisters
+Z70 w1472077797
+R4
+R6
+R7
+R8
+Z71 8C:/Users/crb343/Desktop/Full CPU/registersWR.vhd
+Z72 FC:/Users/crb343/Desktop/Full CPU/registersWR.vhd
+l0
+L5
+VCb^629h_jI3BN]:BJzFV63
+!s100 4ffcfPiBJ38m]DF3W<jKJ1
+R11
+32
+Z73 !s110 1472077814
+!i10b 1
+Z74 !s108 1472077814.000000
+Z75 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/crb343/Desktop/Full CPU/registersWR.vhd|
+Z76 !s107 C:/Users/crb343/Desktop/Full CPU/registersWR.vhd|
+!i113 0
+R16
+R17
+Abehavioral
+R4
+R6
+R7
+DEx4 work 9 registers 0 22 Cb^629h_jI3BN]:BJzFV63
+l21
+L12
+VRc>Ag=b]JML;h2^S;=K=P3
+!s100 3Lh>W6JK]O<CFT^2@iV3Q3
+R11
+32
+R73
+!i10b 1
+R74
+R75
+R76
+!i113 0
+R16
+R17
+Eregisterswr
+R3
+R4
+R6
+R7
+R8
+R71
+R72
+l0
+L5
+VdA[^a;YdmEXA^j54G3^zK1
+!s100 ]>JinBV_5hY^aHA@0Yz8X1
+R11
+32
+R20
+!i10b 1
+R13
+R75
+R76
+!i113 0
+R16
+R17
+Abehavioral
+R4
+R6
+R7
+DEx4 work 11 registerswr 0 22 dA[^a;YdmEXA^j54G3^zK1
+l18
+L14
+Vni>5dFGOdES6eAR`T34k`2
+!s100 6Gh_zzWfX[mzm[1JSN[kS2
+R11
+32
+R20
+!i10b 1
+R13
+R75
+R76
+!i113 0
+R16
+R17
+Eshiftleft2
+R3
+Z77 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R6
+R7
+R8
+Z78 8C:/Users/crb343/Desktop/Full CPU/ShiftLeft2.vhd
+Z79 FC:/Users/crb343/Desktop/Full CPU/ShiftLeft2.vhd
+l0
+L5
+VT>FDdc`c;PljcjF5GJ]I00
+!s100 g1n_0ggmCoBi85GIC1oc61
+R11
+32
+R20
+!i10b 1
+R21
+Z80 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/crb343/Desktop/Full CPU/ShiftLeft2.vhd|
+Z81 !s107 C:/Users/crb343/Desktop/Full CPU/ShiftLeft2.vhd|
+!i113 0
+R16
+R17
+Abehavioral
+R77
+R6
+R7
+DEx4 work 10 shiftleft2 0 22 T>FDdc`c;PljcjF5GJ]I00
+l17
+L16
+VG2MRC`6Xb`Ue`]lUkzmEC2
+!s100 ;IH6]mDUb^;TVh0c2aJ3b1
+R11
+32
+R20
+!i10b 1
+R21
+R80
+R81
+!i113 0
+R16
+R17
+Eshiftleft2jump
+R3
+R77
+R6
+R7
+R8
+Z82 8C:/Users/crb343/Desktop/Full CPU/ShiftLeft2Jump.vhd
+Z83 FC:/Users/crb343/Desktop/Full CPU/ShiftLeft2Jump.vhd
+l0
+L5
+Vcg:GSiAC:o;OCCYE@I@P92
+!s100 Tc^Mm<kZ8kRQGlAPL@Zz:1
+R11
+32
+R20
+!i10b 1
+R21
+Z84 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/crb343/Desktop/Full CPU/ShiftLeft2Jump.vhd|
+Z85 !s107 C:/Users/crb343/Desktop/Full CPU/ShiftLeft2Jump.vhd|
+!i113 0
+R16
+R17
+Abehavioral
+R77
+R6
+R7
+DEx4 work 14 shiftleft2jump 0 22 cg:GSiAC:o;OCCYE@I@P92
+l15
+L14
+VZ?=]5dDWJ@SBVdLCabJT30
+!s100 UOFL5=7Bkh=6O2U^khRMz3
+R11
+32
+R20
+!i10b 1
+R21
+R84
+R85
+!i113 0
+R16
+R17
+Esignextend
+R3
+R77
+R6
+R7
+R8
+Z86 8C:/Users/crb343/Desktop/Full CPU/SignExtend.vhd
+Z87 FC:/Users/crb343/Desktop/Full CPU/SignExtend.vhd
+l0
+L5
+VWeDOmWJ:Cb>BZJD6J[L2b1
+!s100 =3:Y2QeczIbilCE1FTZKb1
+R11
+32
+R12
+!i10b 1
+Z88 !s108 1472143312.000000
+Z89 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/crb343/Desktop/Full CPU/SignExtend.vhd|
+Z90 !s107 C:/Users/crb343/Desktop/Full CPU/SignExtend.vhd|
+!i113 0
+R16
+R17
+Abehavioral
+R77
+R6
+R7
+DEx4 work 10 signextend 0 22 WeDOmWJ:Cb>BZJD6J[L2b1
+l14
+L13
+V89z_AKiWcgLz6jnlS64Ih3
+!s100 AGYehoa@XVHK;Xjjf9nAZ3
+R11
+32
+R12
+!i10b 1
+R88
+R89
+R90
+!i113 0
+R16
+R17
